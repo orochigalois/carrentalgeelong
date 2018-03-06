@@ -28,7 +28,7 @@ if( !function_exists('rentify_add_theme_scripts') ){
     wp_enqueue_script( 'isotope', RENTIFY_JS.'isotope.pkgd.min.js', array('jquery'), $ver = true, true );
     wp_enqueue_script( 'owl.carousel.min', RENTIFY_JS.'owl.carousel.min.js', array('jquery'), $ver = true, true );
     wp_enqueue_script( 'swipebox', RENTIFY_JS.'jquery.swipebox.min.js', array('jquery'), $ver = true, true );
-    wp_enqueue_script('maps.google', 'http://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyDiAnp9J9ncRbs5d6QHFFav4o7qj7G4jvo', array('jquery'), false, true);
+    wp_enqueue_script('maps.google', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBFSjlDPReUTXgEAeARnKxDKA1spECvPOw', array('jquery'), false, true);
     wp_enqueue_script( 'maplace-0.1.3', RENTIFY_JS.'maplace-0.1.3.js', array('jquery'), $ver = true, true );
     wp_enqueue_script( 'scripts', RENTIFY_JS.'scripts.js', array('jquery'), $ver = true, true );
 
@@ -99,7 +99,7 @@ if( !function_exists('rentify_admin_load_scripts') ){
   function rentify_admin_load_scripts($hook) {  
     if(in_array($hook,array("post.php","post-new.php"))) {
       wp_enqueue_script( 'sb-admin', RENTIFY_JS.'sb-admin.js', array('jquery'), $ver = false, true );
-      wp_enqueue_script('maps.google', 'http://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyDiAnp9J9ncRbs5d6QHFFav4o7qj7G4jvo', array('jquery'), false, true);
+      wp_enqueue_script('maps.google', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBFSjlDPReUTXgEAeARnKxDKA1spECvPOw', array('jquery'), false, true);
       wp_enqueue_script( 'gps_converter', RENTIFY_JS.'gps_converter.js', array('jquery'), $ver = false, true );
     } 
   }
