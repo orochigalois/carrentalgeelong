@@ -280,12 +280,15 @@ function rentify_company_feature_services_func($atts , $content = null){
 
   $get_all_testimonial = get_posts($args);  
 
+  $output .= '<div class="col-sm-1"></div>';
+
+
   if(isset($get_all_testimonial)&& !empty($get_all_testimonial)):   
     foreach ($get_all_testimonial as $key => $value) {
 
       $all_post_meta = get_post_custom( $value->ID );
 
-      $output .= '<div class="col-sm-3">
+      $output .= '<div class="col-sm-2">
                     <div class="uou-block-8d">';
 
       $output .= $all_post_meta['_tons_of_feature_icon'][0];
@@ -296,6 +299,7 @@ function rentify_company_feature_services_func($atts , $content = null){
       $testimonial_count++;  
       if(intval($testimonial_count) === intval($no_of_info_show)) break;
     }
+    $output .= '<div class="col-sm-1"></div>';
   endif;
   $output .='</div>
           </div> 
