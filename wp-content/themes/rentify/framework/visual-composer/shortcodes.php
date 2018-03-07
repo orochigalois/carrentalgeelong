@@ -411,3 +411,35 @@ function construction_service_with_visual() {
 /*-------------------------------------------------------------------------
  End Visual Composer Construction Tons of Feature SHORTCODE
 ------------------------------------------------------------------------- */
+
+
+
+/*-------------------------------------------------------------------------
+ START Visual Composer Construction Tons of Feature SHORTCODE
+------------------------------------------------------------------------- */
+
+
+add_action( 'vc_before_init', 'construction_alex_with_visual' );
+
+function construction_alex_with_visual() {
+   vc_map( array(
+      "name" => __( "Rentify Alex", "rentify" ),
+      "base" => "rentify_alex",
+      "class" => "",
+      "category" => __( "Renify Shortcodes", "rentify"),
+      "params" => array(
+        array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "active",
+            "heading" => __( "Alex Title", "rentify" ),
+            "param_name" => "title",
+         ),
+        
+      )
+   ) );
+}
+
+/*-------------------------------------------------------------------------
+ End Visual Composer Construction Tons of Feature SHORTCODE
+------------------------------------------------------------------------- */

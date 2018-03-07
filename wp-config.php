@@ -23,10 +23,10 @@
 define('DB_NAME', 'i806193_wp8');
 
 /** MySQL database username */
-define('DB_USER', 'i806193_wp8');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Q]lNhjIun93T&TEt(G@40[@7');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
