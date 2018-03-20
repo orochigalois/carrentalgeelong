@@ -311,7 +311,7 @@ add_shortcode( 'rentify_company_feature_services', 'rentify_company_feature_serv
 
 
 // ************************************ ************************************ ************************************ ************************************
-function rentify_alex_func($atts , $content = null){
+function rentify_ourservice_func($atts , $content = null){
 
   extract(shortcode_atts( array('title' => ''), $atts ));
 
@@ -476,23 +476,20 @@ function rentify_alex_func($atts , $content = null){
       <h2 class="h1 this-main">Our service</h2>
       
     </div>
-    <div class="row text-center section-title-img"><img src="./wp-content/themes/rentify/assets/services/1.png" alt=""></div>
+    
 
     <div class="row">
   
       <div class="col-sm-6 col-md-4 service-offer">
         <div class="row inner">
-          <img src="./wp-content/themes/rentify/assets/services/WechatIMG58.png" alt="" class="img-responsive">
+          <img src="./wp-content/themes/rentify/assets/services/term.png" alt="" class="img-responsive">
           <div class="text-holder">
             <div class="media this-heading">
               <div class="media-body">
                 <h4 class="this-title">Short term lease / Long term rental available</h4>
                 
               </div>
-              <div class="media-right media-middle">
-                <span class="normal"><img src="./wp-content/themes/rentify/assets/service-offer/1.png" alt="" class="this-icon"></span>
-                <span class="hover"><img src="./wp-content/themes/rentify/assets/service-offer/7.png" alt="" class="this-icon"></span>
-              </div>
+              
             </div>
             <p>We provide you the different range of vehicles for your journey
               Day rate starts from $30
@@ -504,17 +501,14 @@ function rentify_alex_func($atts , $content = null){
     
       <div class="col-sm-6 col-md-4 service-offer">
         <div class="row inner">
-          <img src="./wp-content/themes/rentify/assets/services/WechatIMG57.png" alt="" class="img-responsive">
+          <img src="./wp-content/themes/rentify/assets/services/insurance.png" alt="" class="img-responsive">
           <div class="text-holder">
             <div class="media this-heading">
               <div class="media-body">
                 <h4 class="this-title">Insurance</h4>
                 
               </div>
-              <div class="media-right media-middle">
-                <span class="normal"><img src="./wp-content/themes/rentify/assets/service-offer/3.png" alt="" class="this-icon"></span>
-                <span class="hover"><img src="./wp-content/themes/rentify/assets/service-offer/9.png" alt="" class="this-icon"></span>
-              </div>
+              
             </div>
             <p style="margin-top: -5%;">We are offering arrange of extra insurance cover , you can add while booking
               online or add up when you pick up the vehicle</p>
@@ -524,17 +518,14 @@ function rentify_alex_func($atts , $content = null){
     
       <div class="col-sm-6 col-md-4 service-offer">
         <div class="row inner">
-          <img src="./wp-content/themes/rentify/assets/services/WechatIMG59.png" alt="" class="img-responsive">
+          <img src="./wp-content/themes/rentify/assets/services/airport.png" alt="" class="img-responsive">
           <div class="text-holder">
             <div class="media this-heading">
               <div class="media-body">
                 <h4 class="this-title">Melbourne Turramuri / Avalon airport pick up service available</h4>
                 
               </div>
-              <div class="media-right media-middle">
-                <span class="normal"><img src="./wp-content/themes/rentify/assets/service-offer/5.png" alt="" class="this-icon"></span>
-                <span class="hover"><img src="./wp-content/themes/rentify/assets/service-offer/11.png" alt="" class="this-icon"></span>
-              </div>
+              
             </div>
             <p style="margin-top: -5%;">We are also offering airport transport service between airports to Geelong
               surround</p>
@@ -544,17 +535,14 @@ function rentify_alex_func($atts , $content = null){
   
       <div class="col-sm-6 col-md-4 service-offer">
         <div class="row inner">
-          <img src="./wp-content/themes/rentify/assets/services/WechatIMG60.png" alt="" class="img-responsive">
+          <img src="./wp-content/themes/rentify/assets/services/driver.png" alt="" class="img-responsive">
           <div class="text-holder">
             <div class="media this-heading">
               <div class="media-body">
                 <h4 class="this-title">Driver service provide</h4>
                 
               </div>
-              <div class="media-right media-middle">
-                <span class="normal"><img src="./wp-content/themes/rentify/assets/service-offer/6.png" alt="" class="this-icon"></span>
-                <span class="hover"><img src="./wp-content/themes/rentify/assets/service-offer/12.png" alt="" class="this-icon"></span>
-              </div>
+             
             </div>
             <p>If you are lazy to drive , our friendly staff could be your personal driver
               We are offering persona; driver service to suit your need</p>
@@ -564,17 +552,14 @@ function rentify_alex_func($atts , $content = null){
       
       <div class="col-sm-6 col-md-4 service-offer">
         <div class="row inner">
-          <img src="./wp-content/themes/rentify/assets/services/WechatIMG60.png" alt="" class="img-responsive">
+          <img src="./wp-content/themes/rentify/assets/services/event.png" alt="" class="img-responsive">
           <div class="text-holder">
             <div class="media this-heading">
               <div class="media-body">
                 <h4 class="this-title">Special occasion ,event car rental</h4>
                 
               </div>
-              <div class="media-right media-middle">
-                <span class="normal"><img src="./wp-content/themes/rentify/assets/service-offer/2.png" alt="" class="this-icon"></span>
-                <span class="hover"><img src="./wp-content/themes/rentify/assets/service-offer/8.png" alt="" class="this-icon"></span>
-              </div>
+           
             </div>
             <p>Our luxury fleets ,convertible fleets, vintage collection fleets could be hired as
               special occasion event hiring
@@ -583,10 +568,308 @@ function rentify_alex_func($atts , $content = null){
         </div>
       </div> 
 
+      
+      
+
     </div>   			
   </div>
 </section>';
 
   return $output;
 }
-add_shortcode( 'rentify_alex', 'rentify_alex_func' );
+add_shortcode( 'rentify_ourservice', 'rentify_ourservice_func' );
+
+
+
+
+
+
+
+// ************************************ ************************************ ************************************ ************************************
+function rentify_comment_func($atts , $content = null){
+
+  extract(shortcode_atts( array('title' => ''), $atts ));
+
+  $output='<style>
+  .testimonial-row {
+    padding: 115px 0; }
+  
+  .testimonial-carousel {
+    padding-top: 20px; }
+    .testimonial-carousel .owl-dots {
+      display: table;
+      margin: 32px auto 0; }
+    .testimonial-carousel .owl-dot {
+      width: 13px;
+      height: 13px;
+      border-radius: 100%;
+      padding: 1.5px;
+      float: left;
+      transition: all 300ms linear 0s; }
+      .testimonial-carousel .owl-dot span {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 100%;
+        transition: all 300ms linear 0s; }
+      .testimonial-carousel .owl-dot + .owl-dot {
+        margin-left: 5px; }
+      .testimonial-carousel .owl-dot.active {
+        padding: 2px; }
+  
+  .testimonial {
+    padding: 0 15px 40px;
+    position: relative; }
+    @media (max-width: 991px) {
+      .testimonial {
+        max-width: 630px;
+        margin: 0 auto; } }
+    .testimonial .inner {
+      padding: 32px 38px 38px;
+      transition: all 300ms linear 0s; }
+      .testimonial .inner:hover, .testimonial .inner:focus {
+        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1); }
+    .testimonial p {
+      font-style: italic;
+      font-family: "Open Sans", sans-serif;
+      line-height: 24px;
+      margin-bottom: 25px; }
+    .testimonial .stars {
+      margin-top: 0; }
+    .testimonial .client {
+      font-weight: bold;
+      margin-bottom: 0; }
+      .testimonial .client small {
+        font-weight: normal;
+        font-style: italic; }
+    .testimonial .client-img {
+      padding: 5px;
+      width: 90px;
+      height: 90px;
+      border-radius: 100%;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      right: 35px; }
+      .testimonial .client-img img {
+        width: 100%; }
+  
+  /*--------------------------------------------------------------------------------------*/
+  .testimonial-hr {
+    margin: 45px 0;
+    background: rgba(43, 46, 74, 0.05); }
+  
+  .testimonials .section-title {
+    margin-bottom: 45px; }
+  
+  .testimonial2 .media-left {
+    padding-right: 20px; }
+    .testimonial2 .media-left a {
+      display: block;
+      width: 90px;
+      height: 90px;
+      border-radius: 100%; }
+  .testimonial2 .media-body {
+    padding-right: 70px; }
+    @media (max-width: 767px) {
+      .testimonial2 .media-body {
+        padding-right: 0; } }
+  .testimonial2 p {
+    font-style: italic;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    margin-bottom: 15px;
+    margin-top: -7px;
+    color: rgba(43, 46, 74, 0.75); }
+  .testimonial2 .stars {
+    margin-top: 0;
+    color: #1ccc8b; }
+  .testimonial2 .client {
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #f77d0a; }
+    .testimonial2 .client small {
+      font-size: 14px;
+      font-weight: bold;
+      color: #2b2e4a; }
+  
+  @media (max-width: 991px) {
+    .video-testimonial .vd-test {
+      max-width: 630px;
+      margin: 0 auto; }
+      .video-testimonial .vd-test .introduction {
+        margin-bottom: 30px; }
+        .video-testimonial .vd-test .introduction .img-responsive {
+          width: 100%; }
+      .video-testimonial .vd-test .testimonials {
+        width: 100%; } }
+
+  </style>';
+  $output .= '
+  
+  <section class="row testimonial-row">
+  <div class="container">   			
+    <div class="row section-title text-center">
+      <h6 class="this-top">SO MANY CHOICE</h6>
+      <h2 class="h1 this-main">A Car for Every Need!</h2>
+    </div>
+
+    <div class="row">
+      <div class="testimonial-carousel owl-carousel owl-theme owl-loaded">
+        
+        
+        
+        
+        
+      
+      <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-970px, 0px, 0px); transition: 0s; width: 3880px;"><div class="owl-item cloned" style="width: 485px; margin-right: 0px;"><div class="item testimonial">
+          <div class="inner row m0">
+            <p>“Best deal - easiest to select number of seats reqired”</p>
+            <span class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            <h5 class="client">Nick Dwyer <small>- Geelong</small></h5>
+            
+          </div>
+        </div></div><div class="owl-item active" style="width: 485px; margin-right: 0px;"><div class="item testimonial">
+          <div class="inner row m0">
+            <p>“I have only just made the booking but it was very easy, fast and efficient to use their website and have any questions answered”</p>
+            <span class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            <h5 class="client">James Crawford</h5>
+            
+          </div>
+        </div></div><div class="owl-item active" style="width: 485px; margin-right: 0px;"><div class="item testimonial">
+          <div class="inner row m0">
+            <p>“Well set-out and efficient website and great to be able to compare prices for different vehicles and companies. Have used before and found reliable.”</p>
+            <span class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            <h5 class="client">Luke Jones <small>- Geelong</small></h5>
+            
+          </div>
+        </div></div><div class="owl-item" style="width: 485px; margin-right: 0px;"><div class="item testimonial">
+          <div class="inner row m0">
+            <p>“Very reliable and friendly service. All the Cars are like brand new. On time delivery and special thanks to their ROADSIDE ASSISTANCE Service as it helped me a lot on road.”</p>
+            <span class="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </span>
+            <h5 class="client">Matt Singh <small>- Sydney</small></h5>
+            
+          </div>
+        </div></div></div></div>
+       
+        </div>   				
+    </div>
+
+  </div>
+</section>
+';
+
+  return $output;
+}
+add_shortcode( 'rentify_comment', 'rentify_comment_func' );
+
+
+
+
+
+
+// ************************************ ************************************ ************************************ ************************************
+function rentify_carlogo_func($atts , $content = null){
+
+  extract(shortcode_atts( array('title' => ''), $atts ));
+
+  $output='<style>
+  .update-partners {
+    background: #f8f8f8; }
+  
+  .updates .stars {
+    color: #1ccc8b; }
+  .updates .update-text {
+    color: #232323; }
+    .updates .update-text .this-title {
+      color: #fb8516;
+      border-color: #fb8516; }
+    .updates .update-text .price {
+      color: #fb8516; }
+    .updates .update-text .save {
+      color: #1ccc8b; }
+      .partners {
+        text-align: center; }
+        @media (max-width: 767px) {
+          .partners {
+            display: flex;
+            flex-direction: column;
+            align-items: center; } }
+        .partners li {
+          display: inline-block;
+          float: none; }
+          @media (max-width: 991px) {
+            .partners li {
+              padding: 0 12px; } }
+          .partners li + li {
+            margin-left: 99px; }
+            @media (max-width: 1199px) {
+              .partners li + li {
+                margin-left: 40px; } }
+            @media (max-width: 991px) {
+              .partners li + li {
+                margin-left: 0; } }
+          .partners li a {
+            padding: 0;
+            line-height: 90px;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            opacity: 0.7; }
+            .partners li a:hover, .partners li a:focus {
+              background: none;
+              opacity: 1;
+              -webkit-filter: grayscale(0);
+              filter: grayscale(0); }
+            @media (max-width: 991px) {
+              .partners li a img {
+                width: 115px;
+                height: 115px; } }
+            @media (max-width: 767px) {
+              .partners li a img {
+                width: 130px;
+                height: 130px; } }
+  </style>';
+  $output .= '<section class="update-partners row">
+  <div class="container">
+    
+
+    <ul class="nav nav-pills partners">
+      <li><a href="index.html#"><img src="./wp-content/themes/rentify/assets/services/client1.png" alt=""></a></li>
+      <li><a href="index.html#"><img src="./wp-content/themes/rentify/assets/services/client2.png" alt=""></a></li>
+      <li><a href="index.html#"><img src="./wp-content/themes/rentify/assets/services/client3.png" alt=""></a></li>
+      <li><a href="index.html#"><img src="./wp-content/themes/rentify/assets/services/client4.png" alt=""></a></li>
+      <li><a href="index.html#"><img src="./wp-content/themes/rentify/assets/services/client5.png" alt=""></a></li>
+    </ul>
+  </div>
+</section>
+';
+
+  return $output;
+}
+add_shortcode( 'rentify_carlogo', 'rentify_carlogo_func' );

@@ -821,6 +821,23 @@ $(".clients-slider").owlCarousel({
 });
 
 
+/*Testimonial Carousel*/
+if ( $('.testimonial-carousel').length ){
+  $('.testimonial-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1
+      },
+      992: {
+        items: 2
+      }
+    }
+  });
+}
+
 
 }(jQuery));
 

@@ -419,12 +419,12 @@ function construction_service_with_visual() {
 ------------------------------------------------------------------------- */
 
 
-add_action( 'vc_before_init', 'construction_alex_with_visual' );
+add_action( 'vc_before_init', 'construction_ourservice_with_visual' );
 
-function construction_alex_with_visual() {
+function construction_ourservice_with_visual() {
    vc_map( array(
-      "name" => __( "Rentify Alex", "rentify" ),
-      "base" => "rentify_alex",
+      "name" => __( "Rentify Our Service", "rentify" ),
+      "base" => "rentify_ourservice",
       "class" => "",
       "category" => __( "Renify Shortcodes", "rentify"),
       "params" => array(
@@ -432,7 +432,70 @@ function construction_alex_with_visual() {
             "type" => "textfield",
             "holder" => "div",
             "class" => "active",
-            "heading" => __( "Alex Title", "rentify" ),
+            "heading" => __( "Our Service Title", "rentify" ),
+            "param_name" => "title",
+         ),
+        
+      )
+   ) );
+}
+
+/*-------------------------------------------------------------------------
+ End Visual Composer Construction Tons of Feature SHORTCODE
+------------------------------------------------------------------------- */
+
+
+
+/*-------------------------------------------------------------------------
+ START Visual Composer Construction Tons of Feature SHORTCODE
+------------------------------------------------------------------------- */
+
+
+add_action( 'vc_before_init', 'construction_comment_with_visual' );
+
+function construction_comment_with_visual() {
+   vc_map( array(
+      "name" => __( "Rentify Comment", "rentify" ),
+      "base" => "rentify_comment",
+      "class" => "",
+      "category" => __( "Renify Shortcodes", "rentify"),
+      "params" => array(
+        array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "active",
+            "heading" => __( "Comment Title", "rentify" ),
+            "param_name" => "title",
+         ),
+        
+      )
+   ) );
+}
+
+/*-------------------------------------------------------------------------
+ End Visual Composer Construction Tons of Feature SHORTCODE
+------------------------------------------------------------------------- */
+
+
+/*-------------------------------------------------------------------------
+ START Visual Composer Construction Tons of Feature SHORTCODE
+------------------------------------------------------------------------- */
+
+
+add_action( 'vc_before_init', 'construction_carlogo_with_visual' );
+
+function construction_carlogo_with_visual() {
+   vc_map( array(
+      "name" => __( "Rentify Car Logo", "rentify" ),
+      "base" => "rentify_carlogo",
+      "class" => "",
+      "category" => __( "Renify Shortcodes", "rentify"),
+      "params" => array(
+        array(
+            "type" => "textfield",
+            "holder" => "div",
+            "class" => "active",
+            "heading" => __( "Car Logo Title", "rentify" ),
             "param_name" => "title",
          ),
         

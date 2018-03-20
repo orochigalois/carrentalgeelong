@@ -77,6 +77,7 @@ if( !function_exists('sb_add_style') ){
 		wp_enqueue_style('light2-style', RENTIFY_JS.'masterslider/skins/light-2/style.css', array(), $ver = false, $media = 'all');
 		wp_enqueue_style('black1-style', RENTIFY_JS.'masterslider/skins/black-1/style.css', array(), $ver = false, $media = 'all');
 		wp_enqueue_style('owl.carousel', RENTIFY_CSS.'owl.carousel.css', array(), $ver = false, $media = 'all');
+		wp_enqueue_style('owl.theme.default', RENTIFY_CSS.'owl.theme.default.css', array(), $ver = false, $media = 'all');
 
 		if($i==1){
 			wp_enqueue_style('sb-main-stylesheet', RENTIFY_CSS.'main-style.css', array(), $ver = false, $media = 'all');

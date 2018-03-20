@@ -705,13 +705,15 @@
 
       <?php if($rentify_option_data['sb-show-footer-copyrights']){?>
       <p>
-        <?php if(isset($rentify_option_data['sb-copyright-text'])&&!empty($rentify_option_data['sb-copyright-text'])) {?>
+      16 Bayley Street Geelong VIC 3220     |     Tel: xxxxx   |     Trading hours: Mon - Fri 9am-5pm Sat Sun Booking via phone 
+
+        <!-- <?php if(isset($rentify_option_data['sb-copyright-text'])&&!empty($rentify_option_data['sb-copyright-text'])) {?>
         <?php echo esc_attr($rentify_option_data['sb-copyright-text']); ?> 
         <?php } ?> 
         <a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>. 
         <?php if(isset($rentify_option_data['sb-after-copyright-text'])&&!empty($rentify_option_data['sb-after-copyright-text'])) {?>
         <?php echo esc_attr($rentify_option_data['sb-after-copyright-text']); ?>
-        <?php } ?>
+        <?php } ?> -->
       </p>
       <?php } ?>
     </div>
