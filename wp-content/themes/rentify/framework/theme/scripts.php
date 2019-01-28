@@ -28,7 +28,7 @@ if( !function_exists('rentify_add_theme_scripts') ){
     wp_enqueue_script( 'isotope', RENTIFY_JS.'isotope.pkgd.min.js', array('jquery'), $ver = true, true );
     wp_enqueue_script( 'owl.carousel.min', RENTIFY_JS.'owl.carousel.min.js', array('jquery'), $ver = true, true );
     wp_enqueue_script( 'swipebox', RENTIFY_JS.'jquery.swipebox.min.js', array('jquery'), $ver = true, true );
-    wp_enqueue_script('maps.google', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBFSjlDPReUTXgEAeARnKxDKA1spECvPOw', array('jquery'), false, true);
+    wp_enqueue_script('maps.google', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyArCwY8WJpk2-gsh9QoI_bhqPFAtL7FPgE', array('jquery'), false, true);
     wp_enqueue_script( 'maplace-0.1.3', RENTIFY_JS.'maplace-0.1.3.js', array('jquery'), $ver = true, true );
     wp_enqueue_script( 'scripts', RENTIFY_JS.'scripts.js', array('jquery'), $ver = true, true );
 
